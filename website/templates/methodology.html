@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Methodology{% endblock %}
+
+{%block content %}
+<div class="container">
+	<h1>Methodology</h1>
+	<br />
+	<p>Here are the sources of data that were used for my project: </p>
+	<ul><em><b>
+		<li><a href="https://collegescorecard.ed.gov/data/">College Scorecard</a></li>
+		<li><a href-"http://nces.ed.gov/ipeds/datacenter/DataFiles.aspx">National Center for Education Statistics</a> (Customizable Data Files)</li>
+	</em></b>
+</ul>
+<img src= {{ url_for('static', filename = 'css/methodology_pic.jpg')}} width="300" height="300" />
+</div>
+
+
+{% endblock %}

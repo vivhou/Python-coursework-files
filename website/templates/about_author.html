@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}About the Author{% endblock %}
+
+{%block content %}
+
+    <div class="container">
+    <h1>About the Author</h1>
+    <p>Vivian Hou is currently working towards a Master's degree in Government Analytics at Johns Hopkins University. She is in her third semester so far and has learned a lot about Python and it's applicable usages in the real world. As a CRM Business Analyst, she aspires to gain coding skills in Python to help her in her professional career. She is certain that such skills will be quite useful for future opportunities! </p> 
+    <img src= {{ url_for('static', filename = 'css/self_pic.jpg')}} width="650" height="380" />
+</div>
+ 
+ {% endblock %}

@@ -1,0 +1,6 @@
+print (2 + 10 + 5)
+print (3 - 1 / 2)
+print ("Is this true?", 5 > 1)
+print ("Are these equal?", 10 + 1, "and", 11)
+print ("Is this true?", 6 >= 10 - 4)
+print ("True or False?", 10 + 10 <= 5)
