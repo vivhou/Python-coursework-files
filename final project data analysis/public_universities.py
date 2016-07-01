@@ -2,7 +2,7 @@
 import sqlite3 as lite
 import sys
 
-con = lite.connect('public_universities.db')
+con = lite.connect('db/public_universities.db')
 
 menu =(
 	('Albany State University', 1.8, 2.2),

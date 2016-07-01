@@ -2,7 +2,7 @@
 import sqlite3 as lite
 import sys
 
-con = lite.connect('private_universities2.db')
+con = lite.connect('db/private_universities2.db')
 
 with con:
 	cur = con.cursor()
